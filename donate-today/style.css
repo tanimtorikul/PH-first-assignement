@@ -80,8 +80,7 @@ input, input::placeholder {
     font-size: 20px ;
     
 }
-
-    hr {
+  hr {
         border:none;
         border-top:3px solid #DADADA;
         color:#fff;
@@ -206,14 +205,23 @@ input, input::placeholder {
     background-color: #5208ff1a;
     padding-bottom: 50px;
     display: flex;
+    background-position: center;
+    width: 100%;
 }
 .email{
    color: #D9D9D9;
-   height: 50px;
+  padding: 10px;
+  margin-left: 20px;
 }
 .sub-button{
-    color: #FF5959;
-    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding:  12px;
+    color: white;
+    width:200px;
+ height:20px;
+ margin-top: 20px;
 }
 
 /* footer */
@@ -221,5 +229,6 @@ footer{
     text-align: center;
     background-color: black;
     color: #FF5959;
-    padding-top: 50px;
+    margin-top: 50px;
+   
 }
